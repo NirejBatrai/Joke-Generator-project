@@ -1,0 +1,71 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Black+Ops+One&family=Poppins:wght@500;600&family=Roboto+Slab&display=swap');
+
+/* Reset some default styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+  background-color: #f0f0f0;
+}
+
+/* Apply styles to the container */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #222;
+  color: #fff;
+}
+
+/* Style the header */
+h3 {
+  font-family: 'Anton', sans-serif;
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+/* Style the joke container */
+.joke {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style the joke text */
+.joke p {
+  margin: 20px;
+  padding: 20px;
+  border: solid 2px #fff;
+  border-radius: 10px;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  max-width: 400px;
+}
+
+/* Style the "Get Another Joke" button */
+.btn {
+  background-color: #ac0a9e;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 200px;
+  height: 50px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #880770;
+}
+
+/* Center the button horizontally */
+button#joke-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
